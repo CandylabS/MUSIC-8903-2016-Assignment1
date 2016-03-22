@@ -1,0 +1,8 @@
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/AudioFileIO/sndlib/CMakeFiles/sndlib.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/Dtw/CMakeFiles/Dtw.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeFiles/ALL_BUILD.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/AudioFileIO/CMakeFiles/AudioFileIO.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeFiles/ZERO_CHECK.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CombFilter/CMakeFiles/CombFilter.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/MUSI8903Exec/CMakeFiles/MUSI8903Exec.dir
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/Vibrato/CMakeFiles/Vibrato.dir
