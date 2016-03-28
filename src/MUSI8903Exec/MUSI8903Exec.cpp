@@ -24,6 +24,8 @@ int main(int argc, char* argv[])
     clock_t                 time                = 0;
 
     float                   **ppfAudioData      = 0;
+    float                   **ppfInputData      = 0;
+    float                   **ppfOutputData     = 0;
 
     CAudioFileIf            *phAudioFile        = 0;
     std::fstream            hOutputFile;
@@ -49,6 +51,7 @@ int main(int argc, char* argv[])
     // open the input wave file
     CAudioFileIf::create(phAudioFile);
     phAudioFile->openFile(sInputFilePath, CAudioFileIf::kFileRead);
+    
     if (!phAudioFile->isOpen())
     {
         cout << "Wave file open error!";
@@ -64,12 +67,31 @@ int main(int argc, char* argv[])
         cout << "Text file open error!";
         return -1;
     }
+    
+    //////////////////////////////////////////////////////////////////////////////
+    // user input parameters
+    std::string combFilterType = "FIR";
+    float gain = 0.5;
+    float delayLength = 0.1;
+    // iNumFrames also can be changed..
+    
+    //////////////////////////////////////////////////////////////////////////////
+    // initialize new instance myComb of CombFilter class
+    myComb.init(gain, delayLength, stFileSpec.iNumChannels);
 
     //////////////////////////////////////////////////////////////////////////////
     // allocate memory
     ppfAudioData            = new float* [stFileSpec.iNumChannels];
     for (int i = 0; i < stFileSpec.iNumChannels; i++)
         ppfAudioData[i] = new float [kBlockSize];
+    
+    ppfInputData            = new float* [stFileSpec.iNumChannels];
+    for (int i = 0; i < stFileSpec.iNumChannels; i++)
+        ppfInputData[i] = new float [kBlockSize];
+    
+    ppfOutputData            = new float* [stFileSpec.iNumChannels];
+    for (int i = 0; i < stFileSpec.iNumChannels; i++)
+        ppfOutputData[i] = new float [kBlockSize];
 
     time                    = clock();
     //////////////////////////////////////////////////////////////////////////////
@@ -80,12 +102,24 @@ int main(int argc, char* argv[])
         phAudioFile->readData(ppfAudioData, iNumFrames);
         
         // Here is to change ppfAudioData
+        // Copy input data
+        for (int i = 0; i < iNumFrames; i++)
+            for (int c = 0; c < stFileSpec.iNumChannels; c++)
+                ppfInputData[c][i] = ppfAudioData[c][i];
+        
+        // Combfilter process
+        if (combFilterType == "FIR")
+            myComb.firProcess(ppfInputData, ppfOutputData, iNumFrames);
+        else if (combFilterType == "IIR")
+            myComb.iirProcess(ppfInputData, ppfOutputData, iNumFrames);
+        else
+            myComb.newProcess(ppfInputData, ppfOutputData, iNumFrames);
 
         for (int i = 0; i < iNumFrames; i++)
         {
             for (int c = 0; c < stFileSpec.iNumChannels; c++)
             {
-                hOutputFile << ppfAudioData[c][i] << "\t";
+                hOutputFile << ppfOutputData[c][i] << "\t";
             }
             hOutputFile << endl;
         }
@@ -102,6 +136,16 @@ int main(int argc, char* argv[])
         delete [] ppfAudioData[i];
     delete [] ppfAudioData;
     ppfAudioData = 0;
+    
+    for (int i = 0; i < stFileSpec.iNumChannels; i++)
+        delete [] ppfInputData[i];
+    delete [] ppfInputData;
+    ppfInputData = 0;
+    
+    for (int i = 0; i < stFileSpec.iNumChannels; i++)
+        delete [] ppfOutputData[i];
+    delete [] ppfOutputData;
+    ppfOutputData = 0;
 
     return 0;
     

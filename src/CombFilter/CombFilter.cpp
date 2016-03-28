@@ -9,11 +9,11 @@
 #include "CombFilter.hpp"
 
 CombFilter::CombFilter(){
-    this->reset();
+    //this->reset();
 }
 
 CombFilter::~CombFilter(){
-    this->reset();
+    //this->reset();
 }
 
 /*
@@ -64,9 +64,10 @@ Error_t CombFilter::reset(){
     m_gain = GAIN;
     
     // reset buffer
-    for (int i = 0; i < m_delayLine; i++)
-        for (int c = 0; c < m_NumChannels; c++)
-            buffer[c][i] = 0;
+    for (int i = 0; i < m_NumChannels; i++)
+        delete [] buffer[i];
+    delete [] buffer;
+    buffer = 0;
     
     return kNoError;
 }
@@ -94,5 +95,12 @@ Error_t CombFilter::iirProcess(float **ppfInputData, float **ppfOutputData, int 
                 buffer[c][j] = buffer[c][j-1];
             buffer[c][0] = ppfOutputData[c][i];
         }
+    return kNoError;
+}
+
+Error_t CombFilter::newProcess(float **ppfInputData, float **ppfOutputData, int iNumFrames){
+    for (int i = 0; i < iNumFrames; i++)
+        for (int c = 0; c < m_NumChannels; c++)
+            ppfOutputData[c][i] = ppfInputData[c][i];
     return kNoError;
 }

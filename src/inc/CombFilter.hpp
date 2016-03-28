@@ -32,6 +32,7 @@ public:
     
     Error_t firProcess(float** ppfInputData, float** ppfOutputData, int iNumFrames);
     Error_t iirProcess(float** ppfInputData, float** ppfOutputData, int iNumFrames);
+    Error_t newProcess(float** ppfInputData, float** ppfOutputData, int iNumFrames);
     
 protected:
     
