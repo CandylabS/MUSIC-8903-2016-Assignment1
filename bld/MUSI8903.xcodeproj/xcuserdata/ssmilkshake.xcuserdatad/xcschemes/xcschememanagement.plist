@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>CombFilter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>MUSI8903Exec.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,7 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>030F14F86EB949EB8EE1DC60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0637CE731AEE4453AA8E3179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11568F7374F347539EDBEF9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1B06839209564040A9B86F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41664F4B28FA4EF19C9E1FC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C4D6F09C86345D38571BA8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>F8F097D95CDB4DD6BA7B798D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE75101337E2411084729585</key>
 		<dict>
 			<key>primary</key>
 			<true/>

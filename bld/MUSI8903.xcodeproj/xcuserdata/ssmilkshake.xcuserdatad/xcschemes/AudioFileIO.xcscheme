@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0637CE731AEE4453AA8E3179"
+               BlueprintIdentifier = "030F14F86EB949EB8EE1DC60"
                BuildableName = "libAudioFileIO.a"
                BlueprintName = "AudioFileIO"
                ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0637CE731AEE4453AA8E3179"
+            BlueprintIdentifier = "030F14F86EB949EB8EE1DC60"
             BuildableName = "libAudioFileIO.a"
             BlueprintName = "AudioFileIO"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0637CE731AEE4453AA8E3179"
+            BlueprintIdentifier = "030F14F86EB949EB8EE1DC60"
             BuildableName = "libAudioFileIO.a"
             BlueprintName = "AudioFileIO"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">

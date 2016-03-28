@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F19E8D61CB843E5AA51A2EB"
+               BlueprintIdentifier = "11568F7374F347539EDBEF9B"
                BuildableName = "libsndlib.a"
                BlueprintName = "sndlib"
                ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F19E8D61CB843E5AA51A2EB"
+            BlueprintIdentifier = "11568F7374F347539EDBEF9B"
             BuildableName = "libsndlib.a"
             BlueprintName = "sndlib"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F19E8D61CB843E5AA51A2EB"
+            BlueprintIdentifier = "11568F7374F347539EDBEF9B"
             BuildableName = "libsndlib.a"
             BlueprintName = "sndlib"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">

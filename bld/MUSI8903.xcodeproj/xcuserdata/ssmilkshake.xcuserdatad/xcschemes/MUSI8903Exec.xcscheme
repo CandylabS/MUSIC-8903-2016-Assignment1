@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E91D206714748AAAB9F3DA3"
+               BlueprintIdentifier = "FE75101337E2411084729585"
                BuildableName = "MUSI8903Exec"
                BlueprintName = "MUSI8903Exec"
                ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E91D206714748AAAB9F3DA3"
+            BlueprintIdentifier = "FE75101337E2411084729585"
             BuildableName = "MUSI8903Exec"
             BlueprintName = "MUSI8903Exec"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E91D206714748AAAB9F3DA3"
+            BlueprintIdentifier = "FE75101337E2411084729585"
             BuildableName = "MUSI8903Exec"
             BlueprintName = "MUSI8903Exec"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E91D206714748AAAB9F3DA3"
+            BlueprintIdentifier = "FE75101337E2411084729585"
             BuildableName = "MUSI8903Exec"
             BlueprintName = "MUSI8903Exec"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">

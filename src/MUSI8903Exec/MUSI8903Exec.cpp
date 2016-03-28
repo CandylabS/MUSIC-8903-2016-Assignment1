@@ -1,15 +1,15 @@
-
 #include <iostream>
 #include <ctime>
 
 #include "MUSI8903Config.h"
 
 #include "AudioFileIf.h"
+#include "CombFilter.hpp"
 
 using std::cout;
 using std::endl;
 
-// local function declarations
+// local function declarationsb
 void    showClInfo ();
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -28,6 +28,8 @@ int main(int argc, char* argv[])
     CAudioFileIf            *phAudioFile        = 0;
     std::fstream            hOutputFile;
     CAudioFileIf::FileSpec_t stFileSpec;
+    
+    CombFilter              myComb;
 
     showClInfo ();
 
@@ -76,6 +78,8 @@ int main(int argc, char* argv[])
     {
         long long iNumFrames = kBlockSize;
         phAudioFile->readData(ppfAudioData, iNumFrames);
+        
+        // Here is to change ppfAudioData
 
         for (int i = 0; i < iNumFrames; i++)
         {
