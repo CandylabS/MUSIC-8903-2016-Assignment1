@@ -13,7 +13,7 @@ CombFilter::CombFilter(){
 }
 
 CombFilter::~CombFilter(){
-    //this->reset();
+    this->reset();
 }
 
 /*

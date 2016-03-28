@@ -131,7 +131,8 @@ int main(int argc, char* argv[])
     // clean-up
     CAudioFileIf::destroy(phAudioFile);
     hOutputFile.close();
-
+    myComb.reset();
+    
     for (int i = 0; i < stFileSpec.iNumChannels; i++)
         delete [] ppfAudioData[i];
     delete [] ppfAudioData;
