@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		1B06839209564040A9B86F23 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 48596D2AC73847E89362C0FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 9B1EC8EDBB87470CA678A1CD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				83C4D5BE7F554813BAC0B34D /* CMake Rules */,
+				B9501C5E2F4F4D5AAAF6F570 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,16 +20,17 @@
 		};
 		41664F4B28FA4EF19C9E1FC9 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 23C40E7608B34F16A1DE7DE6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = AD7B33B0546A44D1ABE382A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				3ED48E8949F342358143C664 /* CMake Rules */,
+				B1F283F60DB2449681514CD5 /* CMake Rules */,
 			);
 			dependencies = (
-				3528C3A7439C4123A74CC0E5 /* PBXTargetDependency */,
-				B6BBEC30C64049F4ABF8FD9C /* PBXTargetDependency */,
-				E46BC488A3F149FFB81E4B46 /* PBXTargetDependency */,
-				EAEF11CDED7C4AD687DA5C25 /* PBXTargetDependency */,
-				601320D46937411CAF4E029E /* PBXTargetDependency */,
+				F469AA68B0444ECFA3878E06 /* PBXTargetDependency */,
+				EAB3B131AC3E4DA98A0F9736 /* PBXTargetDependency */,
+				9B644E3C17B94D1F8AE26794 /* PBXTargetDependency */,
+				C29CE4D04C064763955DEE70 /* PBXTargetDependency */,
+				413D9F942C974A2DAE471CB8 /* PBXTargetDependency */,
+				4AAE27D55BCD44B2A51F7173 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -37,162 +38,186 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E7452F7CEA54A46ACF91F21 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXBuildFile; fileRef = 8E54309F18324AF787AEFBA3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
-		218D899FD6C0460881B6F6EF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = AFAE39BE98464A7E8B83B797 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
-		2A98AF80DB0049078480CC32 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 48B49F899FF04435AC142BCC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
-		305E5C9C0FE44C42914D531D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXBuildFile; fileRef = EACF3715E26F45ABA67120A2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		3C3CEC6488C84956B00CB4FE /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */ = {isa = PBXBuildFile; fileRef = 04A7D3B20D06429EAB551D4D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */; settings = {COMPILER_FLAGS = ""; }; };
-		4A5D25DAE86943CFAB53546B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */ = {isa = PBXBuildFile; fileRef = 0D262E2018E848DEB608EE7F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4B1F9A6C2C794E118C46FFE0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = D5028AEFCD8F48F19AFFB7E4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4B29E4B29A724267BC8120D4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = A358426384E8445684DAE68F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		4B68A9FA42C0436F8D6311DC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */ = {isa = PBXBuildFile; fileRef = F9545275DCD14FBC90D86BD2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
-		4C3B7F762738492CAF453D75 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BFBB5A275A324239B58AD8A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		4FA94606A21B415F82EE4E82 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */ = {isa = PBXBuildFile; fileRef = AEF65C65A11D4C0ABEA74EE6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
-		56ADFA91B7874074B8F5B147 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */ = {isa = PBXBuildFile; fileRef = 2669472D12B74A90B70E5893 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */; settings = {COMPILER_FLAGS = ""; }; };
-		5E65A9C99A36474AAF75F3EF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = 96A9C16549BC456499AA08D2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
-		68EDF6B66548407C998779E6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 90D050C650294FFDB161E3F2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		7C2BEA8882F94562A988F404 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXBuildFile; fileRef = 2ABF136F1FC144F6A71E7239 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
-		7E0FF40D161641AE9F16F060 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */ = {isa = PBXBuildFile; fileRef = 83A3769995A646D29627F8C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		844111BABFF14D37856C0688 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXBuildFile; fileRef = 425506E5E00B4C74B90FFB54 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		8747B752BB0C4FC1A3EB661B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */ = {isa = PBXBuildFile; fileRef = B66041A601DD4E62BCFA711F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */; settings = {COMPILER_FLAGS = ""; }; };
-		8F3A4AEBFC4C40C5B1C91F1F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F024C67C94A24C60B66E982C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		9050F246A8E94AA697FF3936 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXBuildFile; fileRef = D89FF0D9A4C94D84840257CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
-		94E98DF9A762400AB7A42EB4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXBuildFile; fileRef = FD5A635B95194EDBA1753999 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
-		986008CBE4C04D62898C3D78 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */ = {isa = PBXBuildFile; fileRef = D86C6586ACCD410186D000A3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */; settings = {COMPILER_FLAGS = ""; }; };
-		A6E5858DB001412483D8AAA0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */ = {isa = PBXBuildFile; fileRef = 359B8632CFE344DABD04812C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */; settings = {COMPILER_FLAGS = ""; }; };
-		A7C717FAC04941A198C5C0D6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */ = {isa = PBXBuildFile; fileRef = 36583616370E4074B69E60DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */; settings = {COMPILER_FLAGS = ""; }; };
-		AA79C1FAA143432C9EFD4E6B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */ = {isa = PBXBuildFile; fileRef = FF71B3145D0D4CCDAB295974 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */; settings = {COMPILER_FLAGS = ""; }; };
-		AB121D3B4E444ABE8448B20A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */ = {isa = PBXBuildFile; fileRef = 17DD83D4EE70470693E2000C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
-		B2596E822F3B442984CAA680 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 0A73B3E97ACB47C687072D9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
-		B2A74878A6184A83ADC987E5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */ = {isa = PBXBuildFile; fileRef = E6626F8A991F40738ED74A30 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */; settings = {COMPILER_FLAGS = ""; }; };
-		B46C474D62E24BECB8480DFF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = A344990709AB4F0E9E26043A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
-		C2AA78C24B4D43B8837DDBF1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = A8E9959AEFF64A0C8A8901A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
-		CBAEE664254F402599659D40 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = B08ED7C638B547F3826C0D59 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
-		DA07676DE32C40C3B495A394 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */ = {isa = PBXBuildFile; fileRef = 2AADAB763E724555BAE26DF5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */; settings = {COMPILER_FLAGS = ""; }; };
-		DC610B32BA2640A895E1866D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E8D0D54B132D46DB85EE4407 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
-		E14147CDB3214F87A7452467 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */ = {isa = PBXBuildFile; fileRef = 0AD288FEDC0A4772B8C671FF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */; settings = {COMPILER_FLAGS = ""; }; };
-		E7E89A74C86448A2BF603F18 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */ = {isa = PBXBuildFile; fileRef = 47EE8F48ADAF40E296D262D3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */; settings = {COMPILER_FLAGS = ""; }; };
-		EA4E72F26E534484BA178ADA /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */ = {isa = PBXBuildFile; fileRef = 883F6CA2686842ED9471653F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
-		EAD7637344AF4CEA89377CA7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */ = {isa = PBXBuildFile; fileRef = FA332CBAEC6245EA8E8C4AC9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */; settings = {COMPILER_FLAGS = ""; }; };
-		EEA2F8BE991347BC81490274 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 7E2F926FF7D84347950382AD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
-		F424ECC852E34EA28C809FF7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */ = {isa = PBXBuildFile; fileRef = 12BCE63B130443E6B406D1C0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
-		F50313B5E28D4C1BA7534B7A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */ = {isa = PBXBuildFile; fileRef = 76CAA84B1187449E8DF6FD57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */; settings = {COMPILER_FLAGS = ""; }; };
-		F7ECC880431442B2949DF722 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */ = {isa = PBXBuildFile; fileRef = 1093A01CF5DB4D9E8431B0DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */; settings = {COMPILER_FLAGS = ""; }; };
+		048EDBB21FC249F986FCF7B6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */ = {isa = PBXBuildFile; fileRef = 36A0CEB75C424C9ABC8F61F0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */; settings = {COMPILER_FLAGS = ""; }; };
+		05BBCB4FF6054D538B1D99CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B55EFEBF2EE544C6B3354C93 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		09999ED3219C4DC18C96286C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = F4AD8FAB9FE444099CDA6A7C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1FABD61AC735465AB23841AE /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */ = {isa = PBXBuildFile; fileRef = C0650456BBD24035A2CDBFC8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2156A070A6C64B2384467FF4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 13E6FAC6D66C4F3C90A4CD0C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		261E24D957BB4BEDAC1804E1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXBuildFile; fileRef = E7F08308DE874C159ECFD370 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		270DCD33BD304208897D75E0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = 6CF063F2ADE64F3C8B1185A4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2A2A0F36CAEA42B0BFD4A287 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */ = {isa = PBXBuildFile; fileRef = 8AEB35E21DB045A88A0C136A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3A8FA97189E344FBB3DB8CD6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXBuildFile; fileRef = 34397ACB60E146A89D5F9F57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3CCD776B60904119855EAEF4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 92691F0460D840C8B9AD2575 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		42D5EA42AB2C4D0E820862E1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */ = {isa = PBXBuildFile; fileRef = A5E480A1EC0E44BEB1F48823 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4F26536E09BD4B1EA626BC2E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXBuildFile; fileRef = 5E5268C775AC49E6A0D7B785 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		510822DCE06849B69904B7D3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = FF6B4A32E6B04B42BC363258 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		57D6C0A6FD79488182374533 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = 40AE65568AC9418B8F83006D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		57F784B7924B4335B0F4FCE7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXBuildFile; fileRef = 0E0BAD0CB08B4729A32F9341 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		58D41B2BA3A04DCB85544BAA /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = B81226BBDFB3480381391493 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
+		67C6F8D9F29A4480A2802393 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = 32E5D81167AA4A879E0AE595 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		705B9F62464047EF8676BBEA /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = 3F3231D481EA4582A24B9591 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		70BA4B8E3DB743D79CCAA591 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */ = {isa = PBXBuildFile; fileRef = B337BF1116FB458BA3382643 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		74B50DDA61944E6FAF0E01C4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */ = {isa = PBXBuildFile; fileRef = 56610A840A35416A905ABD5B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		808E6D754E784E5B8D4E972F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */ = {isa = PBXBuildFile; fileRef = B9C1AE413E8F4E179B84109D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */; settings = {COMPILER_FLAGS = ""; }; };
+		80B8353F0D1B4B7193D9EAD5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 82BE23EE11954A3AA322B346 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
+		846B10402DC449939212069E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */ = {isa = PBXBuildFile; fileRef = 4AD9B9B535FA42209F13BD06 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8694E568056E41598FBB8DD1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */ = {isa = PBXBuildFile; fileRef = FC93346AC8754FFAAB59BC80 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8A3C05B19C744E33AB8A9E93 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */ = {isa = PBXBuildFile; fileRef = 56EA1D25AC5B4B07A7194A3A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8D5660BC67A4461F8E51A6A7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXBuildFile; fileRef = 27B9EED1CC9940108E2DDDEB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8E79F2667A1D48318641B773 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = CDFB43E9EB8947D8B2ADB166 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		921F4A1AFE984E64917C3021 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */ = {isa = PBXBuildFile; fileRef = 06480AEAA7884118A3342051 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		96A8E5DBEE7A458EA82AC94B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */ = {isa = PBXBuildFile; fileRef = EDA9C01C4EAF4776A19E2D78 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9CC8F683637842D4830F4595 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = FB1158A473EE4B9CAE7CB060 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AAC3237F725944EBB0679D46 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = 762484DA0BA345A7B68F81D5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AE801E8FFC744ECD852BC17B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */ = {isa = PBXBuildFile; fileRef = DA05E0671E8A4EA3B8A26C3E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */; settings = {COMPILER_FLAGS = ""; }; };
+		AEDA7BCB076741B78985D459 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */ = {isa = PBXBuildFile; fileRef = 24E78F596657479DBE632144 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B1884162C6734656A2D59699 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/Test_CombFilter.cpp */ = {isa = PBXBuildFile; fileRef = 1181F88B91A0415E99209CA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/Test_CombFilter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B34F264A021248D5AE9AE470 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2FDF48BDC6FB4F2CBB8B07EC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B53524B370524849A36E842D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */ = {isa = PBXBuildFile; fileRef = 28BFC9D7729C4F5EBC2F0A6A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B89F86F95D024505BE4EA0A2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */ = {isa = PBXBuildFile; fileRef = D438F551CFA7435281B736E8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BBEB63F8223845C1A1FF7BC6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXBuildFile; fileRef = 1B8C19374934491F89047C9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BCF813687D264FC685463914 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 0340FA5A9F624D2C8CD39C26 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C07EF456CF6D4BF6BA8CBF1E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */ = {isa = PBXBuildFile; fileRef = 8DAB0BDF913144189C0D9023 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C97E8995FEBE4566B79B8377 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXBuildFile; fileRef = 39104BEBBEC94DC38766E53D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CFBA2A70D36A41A990B7701F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 93AC22585D2E4BAA97A8597A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D0BB08A5A68C4B09A8103FAC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 06812233D1F14B729D6352CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E8D0797A7C514872A85EEDC2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */ = {isa = PBXBuildFile; fileRef = F47D4A5ECB6143EB930E6AA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EAFDCC6CDB5943EE9485767C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 08A2C9CCCB954FBEAB4A1642 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		ED5BD52F2F5244A9A34AE5DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */ = {isa = PBXBuildFile; fileRef = 83E69F02DE5E4053B8D75973 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F27706A69A084ABAB7A32D66 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */ = {isa = PBXBuildFile; fileRef = 24C6544FAE0F404B9540F8A9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F700C16BF18149CABA0C8C0D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E580402239A24034A28C00C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		FD052CF2EBBD4022B32A0178 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = 457A9C94342A4C52969DC8AB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD6FA6A68C40409094341484 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7C48AB9E3BAF4296B97FC099 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		FEBA35F5EBCB4CA7B7A1F6CB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */ = {isa = PBXBuildFile; fileRef = 5C76F72C7EE64E11849C14B3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1499C581D7A34C58B941EFB4 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		5073B3E31BBB411FAEB1C0C0 = {
-			isa = PBXBuildStyle;
-		};
-		8E25F1A3FE25412AB6C3FC4E /* RelWithDebInfo */ = {
+		51EB8E9676254F67B811DB57 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		CABC5B9A0E394FC386344874 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		DCF0DE8FF2FE4AA0BE06A5D8 /* MinSizeRel */ = {
+		95440101DA2947CFB2A349FB /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		B215C1B14D1E42E98C1F38F5 = {
+			isa = PBXBuildStyle;
+		};
+		C9FEAEA6B92D4F5BA549B734 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CAB3052E8FA64DF9967EB54F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		261BF160D85247B393CB2ED4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B06839209564040A9B86F23;
-			remoteInfo = ZERO_CHECK;
-		};
-		2A150F3FD09E4BE58A8EF1CD /* PBXContainerItemProxy */ = {
+		0B5CE12F2B6847D791A2981C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11568F7374F347539EDBEF9B;
 			remoteInfo = sndlib;
 		};
-		6E792E063A9D4F0DABDA8B9B /* PBXContainerItemProxy */ = {
+		183C458067344988B40B6B37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1B06839209564040A9B86F23;
 			remoteInfo = ZERO_CHECK;
 		};
-		75CECE322E9E4419942485D2 /* PBXContainerItemProxy */ = {
+		25B3D64C156943F79DF30D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030F14F86EB949EB8EE1DC60;
+			remoteInfo = AudioFileIO;
+		};
+		2B18EBF6914D4BECB301EF6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FE75101337E2411084729585;
 			remoteInfo = MUSI8903Exec;
 		};
-		981FA003DC074100A6486282 /* PBXContainerItemProxy */ = {
+		34D024259FEF4E13B16F3D13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11568F7374F347539EDBEF9B;
 			remoteInfo = sndlib;
 		};
-		A555B6A83D424C96822FAE1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B06839209564040A9B86F23;
-			remoteInfo = ZERO_CHECK;
-		};
-		AAAD05FC75A547D59F7C1F72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 030F14F86EB949EB8EE1DC60;
-			remoteInfo = AudioFileIO;
-		};
-		AB99B4A6D215446EB528762E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11568F7374F347539EDBEF9B;
-			remoteInfo = sndlib;
-		};
-		AF8612B71EDA4D68A6A2F764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B06839209564040A9B86F23;
-			remoteInfo = ZERO_CHECK;
-		};
-		C527F2B394764462A4735DFD /* PBXContainerItemProxy */ = {
+		421DD3DD306F43158C6377F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C4D6F09C86345D38571BA8B;
 			remoteInfo = CombFilter;
 		};
-		D264B0D22098427DBB28A1DC /* PBXContainerItemProxy */ = {
+		4ED2DB570EF049BB96FA55E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B06839209564040A9B86F23;
+			remoteInfo = ZERO_CHECK;
+		};
+		7646DB26E99F46F29FEC18F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B06839209564040A9B86F23;
+			remoteInfo = ZERO_CHECK;
+		};
+		82980B759E4D4EE98332423D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B06839209564040A9B86F23;
+			remoteInfo = ZERO_CHECK;
+		};
+		98C4ED2C045F4AD6AF9C8A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B06839209564040A9B86F23;
+			remoteInfo = ZERO_CHECK;
+		};
+		9BE90E183EED4E3896D40C2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 030F14F86EB949EB8EE1DC60;
 			remoteInfo = AudioFileIO;
 		};
-		D2C9555855304A75A67463C3 /* PBXContainerItemProxy */ = {
+		A0DCC443B58F46FA934F4B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B4728F1FD64692B53FD495;
+			remoteInfo = Test;
+		};
+		D8D3B2949EEA475C98E9A9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11568F7374F347539EDBEF9B;
+			remoteInfo = sndlib;
+		};
+		FDF232271AD24DF09A3E80D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9554A12372F54214B0E6BDCF /* Project object */;
 			proxyType = 1;
@@ -202,259 +227,305 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A7D3B20D06429EAB551D4D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio.c; path = 3rdparty/sndlib/audio.c; sourceTree = SOURCE_ROOT; };
-		0A73B3E97ACB47C687072D9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
-		0AD288FEDC0A4772B8C671FF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm.c; path = 3rdparty/sndlib/clm.c; sourceTree = SOURCE_ROOT; };
-		0D262E2018E848DEB608EE7F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm.h; path = 3rdparty/sndlib/clm.h; sourceTree = SOURCE_ROOT; };
-		1093A01CF5DB4D9E8431B0DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s7.h; path = 3rdparty/sndlib/s7.h; sourceTree = SOURCE_ROOT; };
-		12BCE63B130443E6B406D1C0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm2xen.h; path = 3rdparty/sndlib/clm2xen.h; sourceTree = SOURCE_ROOT; };
-		17DD83D4EE70470693E2000C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _sndlib.h; path = 3rdparty/sndlib/_sndlib.h; sourceTree = SOURCE_ROOT; };
-		1C2F90D8E4A54A74A03239BE /* sndlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsndlib.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		2669472D12B74A90B70E5893 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mus-config.h"; path = "3rdparty/sndlib/mus-config.h"; sourceTree = SOURCE_ROOT; };
-		2AADAB763E724555BAE26DF5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "unix-config.h"; path = "3rdparty/sndlib/unix-config.h"; sourceTree = SOURCE_ROOT; };
-		2ABF136F1FC144F6A71E7239 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib2xen.h; path = 3rdparty/sndlib/sndlib2xen.h; sourceTree = SOURCE_ROOT; };
-		359B8632CFE344DABD04812C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xen.h; path = 3rdparty/sndlib/xen.h; sourceTree = SOURCE_ROOT; };
-		36583616370E4074B69E60DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFile.h; path = src/AudioFileIO/AudioFile.h; sourceTree = SOURCE_ROOT; };
-		4020F79C2FF141D8A652BF6A /* CombFilter */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCombFilter.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		425506E5E00B4C74B90FFB54 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MUSI8903Exec.cpp; path = src/MUSI8903Exec/MUSI8903Exec.cpp; sourceTree = SOURCE_ROOT; };
-		47EE8F48ADAF40E296D262D3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vct.h; path = 3rdparty/sndlib/vct.h; sourceTree = SOURCE_ROOT; };
-		48B49F899FF04435AC142BCC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
-		5E829730FC8A41C68976874C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		76CAA84B1187449E8DF6FD57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = headers.c; path = 3rdparty/sndlib/headers.c; sourceTree = SOURCE_ROOT; };
-		7B24263D1A5E4C57AE30D825 /* MUSI8903Exec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MUSI8903Exec; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E2F926FF7D84347950382AD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
-		83A3769995A646D29627F8C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CombFilter.cpp; path = src/CombFilter/CombFilter.cpp; sourceTree = SOURCE_ROOT; };
-		883F6CA2686842ED9471653F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm2xen.c; path = 3rdparty/sndlib/clm2xen.c; sourceTree = SOURCE_ROOT; };
-		8E54309F18324AF787AEFBA3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sndlib-strings.h"; path = "3rdparty/sndlib/sndlib-strings.h"; sourceTree = SOURCE_ROOT; };
-		90D050C650294FFDB161E3F2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/MUSI8903Exec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		94B90CB1B8F44BA9A62D5A38 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		95EAA499141D49E4B5D5687E /* AudioFileIO */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAudioFileIO.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
-		96A9C16549BC456499AA08D2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CombFilter.hpp; path = src/inc/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
-		A344990709AB4F0E9E26043A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
-		A358426384E8445684DAE68F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CombFilter.hpp; path = src/inc/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
-		A8E9959AEFF64A0C8A8901A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
-		AEF65C65A11D4C0ABEA74EE6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "clm-strings.h"; path = "3rdparty/sndlib/clm-strings.h"; sourceTree = SOURCE_ROOT; };
-		AFAE39BE98464A7E8B83B797 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
-		B08ED7C638B547F3826C0D59 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
-		B66041A601DD4E62BCFA711F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vct.c; path = 3rdparty/sndlib/vct.c; sourceTree = SOURCE_ROOT; };
-		BFBB5A275A324239B58AD8A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/AudioFileIO/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D5028AEFCD8F48F19AFFB7E4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
-		D86C6586ACCD410186D000A3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s7.c; path = 3rdparty/sndlib/s7.c; sourceTree = SOURCE_ROOT; };
-		D89FF0D9A4C94D84840257CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sndlib2xen.c; path = 3rdparty/sndlib/sndlib2xen.c; sourceTree = SOURCE_ROOT; };
-		E6626F8A991F40738ED74A30 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sound.c; path = 3rdparty/sndlib/sound.c; sourceTree = SOURCE_ROOT; };
-		E8D0D54B132D46DB85EE4407 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CombFilter/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		EACF3715E26F45ABA67120A2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFileIf.cpp; path = src/AudioFileIO/AudioFileIf.cpp; sourceTree = SOURCE_ROOT; };
-		F024C67C94A24C60B66E982C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/sndlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F9545275DCD14FBC90D86BD2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib.h; path = 3rdparty/sndlib/sndlib.h; sourceTree = SOURCE_ROOT; };
-		FA332CBAEC6245EA8E8C4AC9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = 3rdparty/sndlib/io.c; sourceTree = SOURCE_ROOT; };
-		FD5A635B95194EDBA1753999 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFile.cpp; path = src/AudioFileIO/AudioFile.cpp; sourceTree = SOURCE_ROOT; };
-		FF71B3145D0D4CCDAB295974 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xen.c; path = 3rdparty/sndlib/xen.c; sourceTree = SOURCE_ROOT; };
+		0340FA5A9F624D2C8CD39C26 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		06480AEAA7884118A3342051 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm2xen.c; path = 3rdparty/sndlib/clm2xen.c; sourceTree = SOURCE_ROOT; };
+		06812233D1F14B729D6352CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		08A2C9CCCB954FBEAB4A1642 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		0E0BAD0CB08B4729A32F9341 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sndlib2xen.c; path = 3rdparty/sndlib/sndlib2xen.c; sourceTree = SOURCE_ROOT; };
+		1181F88B91A0415E99209CA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/Test_CombFilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Test_CombFilter.cpp; path = src/Test/Test_CombFilter.cpp; sourceTree = SOURCE_ROOT; };
+		13E6FAC6D66C4F3C90A4CD0C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		1B8C19374934491F89047C9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Test_CombFilter.hpp; path = src/inc/Test_CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		24C6544FAE0F404B9540F8A9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = 3rdparty/sndlib/io.c; sourceTree = SOURCE_ROOT; };
+		24E78F596657479DBE632144 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm.c; path = 3rdparty/sndlib/clm.c; sourceTree = SOURCE_ROOT; };
+		27B9EED1CC9940108E2DDDEB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sndlib-strings.h"; path = "3rdparty/sndlib/sndlib-strings.h"; sourceTree = SOURCE_ROOT; };
+		28BFC9D7729C4F5EBC2F0A6A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio.c; path = 3rdparty/sndlib/audio.c; sourceTree = SOURCE_ROOT; };
+		2FDF48BDC6FB4F2CBB8B07EC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/sndlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		32E5D81167AA4A879E0AE595 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Test_CombFilter.hpp; path = src/inc/Test_CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		34397ACB60E146A89D5F9F57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFile.cpp; path = src/AudioFileIO/AudioFile.cpp; sourceTree = SOURCE_ROOT; };
+		34F73CD8B4C24075BAFB2BAB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		36A0CEB75C424C9ABC8F61F0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s7.h; path = 3rdparty/sndlib/s7.h; sourceTree = SOURCE_ROOT; };
+		39104BEBBEC94DC38766E53D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib2xen.h; path = 3rdparty/sndlib/sndlib2xen.h; sourceTree = SOURCE_ROOT; };
+		3F3231D481EA4582A24B9591 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Test_CombFilter.hpp; path = src/inc/Test_CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		40AE65568AC9418B8F83006D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		457A9C94342A4C52969DC8AB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		4AD9B9B535FA42209F13BD06 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "unix-config.h"; path = "3rdparty/sndlib/unix-config.h"; sourceTree = SOURCE_ROOT; };
+		56610A840A35416A905ABD5B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CombFilter.cpp; path = src/CombFilter/CombFilter.cpp; sourceTree = SOURCE_ROOT; };
+		56EA1D25AC5B4B07A7194A3A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _sndlib.h; path = 3rdparty/sndlib/_sndlib.h; sourceTree = SOURCE_ROOT; };
+		5C76F72C7EE64E11849C14B3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib.h; path = 3rdparty/sndlib/sndlib.h; sourceTree = SOURCE_ROOT; };
+		5E5268C775AC49E6A0D7B785 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFileIf.cpp; path = src/AudioFileIO/AudioFileIf.cpp; sourceTree = SOURCE_ROOT; };
+		6CF063F2ADE64F3C8B1185A4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CombFilter.hpp; path = src/inc/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		6DB0A38F71724109BCCE9F11 /* Test */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTest.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		753C9D3EC3B54B2388AD2D98 /* MUSI8903Exec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MUSI8903Exec; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		762484DA0BA345A7B68F81D5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		7C48AB9E3BAF4296B97FC099 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CombFilter/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		82BE23EE11954A3AA322B346 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		83E69F02DE5E4053B8D75973 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "clm-strings.h"; path = "3rdparty/sndlib/clm-strings.h"; sourceTree = SOURCE_ROOT; };
+		8AEB35E21DB045A88A0C136A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vct.c; path = 3rdparty/sndlib/vct.c; sourceTree = SOURCE_ROOT; };
+		8DAB0BDF913144189C0D9023 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm2xen.h; path = 3rdparty/sndlib/clm2xen.h; sourceTree = SOURCE_ROOT; };
+		92691F0460D840C8B9AD2575 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		93AC22585D2E4BAA97A8597A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/MUSI8903Exec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A5E480A1EC0E44BEB1F48823 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mus-config.h"; path = "3rdparty/sndlib/mus-config.h"; sourceTree = SOURCE_ROOT; };
+		B337BF1116FB458BA3382643 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFile.h; path = src/AudioFileIO/AudioFile.h; sourceTree = SOURCE_ROOT; };
+		B55EFEBF2EE544C6B3354C93 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/AudioFileIO/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B73F9E6B38284F50ACC938B8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B81226BBDFB3480381391493 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		B9C1AE413E8F4E179B84109D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm.h; path = 3rdparty/sndlib/clm.h; sourceTree = SOURCE_ROOT; };
+		BC6C7ABCA85C4DD4AD5A5637 /* CombFilter */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCombFilter.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0650456BBD24035A2CDBFC8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s7.c; path = 3rdparty/sndlib/s7.c; sourceTree = SOURCE_ROOT; };
+		C9A4EBA1FB75497B83F33608 /* AudioFileIO */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAudioFileIO.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFB43E9EB8947D8B2ADB166 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CombFilter.hpp; path = src/inc/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		D438F551CFA7435281B736E8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xen.h; path = 3rdparty/sndlib/xen.h; sourceTree = SOURCE_ROOT; };
+		DA05E0671E8A4EA3B8A26C3E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = headers.c; path = 3rdparty/sndlib/headers.c; sourceTree = SOURCE_ROOT; };
+		E580402239A24034A28C00C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/Test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7F08308DE874C159ECFD370 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MUSI8903Exec.cpp; path = src/MUSI8903Exec/MUSI8903Exec.cpp; sourceTree = SOURCE_ROOT; };
+		ECCC481954E3468B8A06693B /* sndlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsndlib.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA9C01C4EAF4776A19E2D78 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sound.c; path = 3rdparty/sndlib/sound.c; sourceTree = SOURCE_ROOT; };
+		F47D4A5ECB6143EB930E6AA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vct.h; path = 3rdparty/sndlib/vct.h; sourceTree = SOURCE_ROOT; };
+		F4AD8FAB9FE444099CDA6A7C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		FB1158A473EE4B9CAE7CB060 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		FC93346AC8754FFAAB59BC80 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xen.c; path = 3rdparty/sndlib/xen.c; sourceTree = SOURCE_ROOT; };
+		FF6B4A32E6B04B42BC363258 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CombFilter.hpp; path = src/inc/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		19AA105A79AE437199872C97 = {
-			isa = PBXGroup;
-			children = (
-				616C0FAE19BD40538BB48C34 /* Sources */,
-				65BBD99B6BE74974865A28AA /* Resources */,
-				C284510435614BA6B8C31283 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		2E3580A01E8B4F43877BB4C8 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				83A3769995A646D29627F8C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		36BDA58AF88A4F04B2B1E192 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A73B3E97ACB47C687072D9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */,
-				A358426384E8445684DAE68F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */,
-				B08ED7C638B547F3826C0D59 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */,
-				7E2F926FF7D84347950382AD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */,
-				AFAE39BE98464A7E8B83B797 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		38DCFECD7F2942F08156E064 /* CombFilter */ = {
-			isa = PBXGroup;
-			children = (
-				2E3580A01E8B4F43877BB4C8 /* Source Files */,
-				B0FFA0866D5545308A2B4B09 /* Header Files */,
-				E8D0D54B132D46DB85EE4407 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */,
-			);
-			name = CombFilter;
-			sourceTree = "<group>";
-		};
-		4458072C9EC648C5B138E47C /* sndlib */ = {
-			isa = PBXGroup;
-			children = (
-				8685708BB45F408C81A490FD /* Source Files */,
-				791C270FAC914A8D974CE396 /* Header Files */,
-				F024C67C94A24C60B66E982C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */,
-			);
-			name = sndlib;
-			sourceTree = "<group>";
-		};
-		5E313CF8949A4693A54B8A48 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		613E63ED57B04F55AD945D55 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				425506E5E00B4C74B90FFB54 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		616C0FAE19BD40538BB48C34 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A71232B116B043D28D08EE3F /* ALL_BUILD */,
-				D8212B3912894B58A3C02928 /* ZERO_CHECK */,
-				ADCDFBEAC1254E878D52D2B9 /* MUSI8903Exec */,
-				CEDE5897292744DFAEA41868 /* AudioFileIO */,
-				4458072C9EC648C5B138E47C /* sndlib */,
-				38DCFECD7F2942F08156E064 /* CombFilter */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		65BBD99B6BE74974865A28AA /* Resources */ = {
+		1070615ED4E64E5DBBC4E5B9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6C0F704E2B2F4AAA8374134F /* Header Files */ = {
+		22CFD4A9EB6A4A99ADC6C214 /* AudioFileIO */ = {
 			isa = PBXGroup;
 			children = (
-				36583616370E4074B69E60DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */,
+				E9B71C3A6BB045C6949D9541 /* Source Files */,
+				BA502B52968A477AA06390A2 /* Header Files */,
+				B55EFEBF2EE544C6B3354C93 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */,
+			);
+			name = AudioFileIO;
+			sourceTree = "<group>";
+		};
+		2D9F8EA83CBA4D4EAB604040 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A2C9CCCB954FBEAB4A1642 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */,
+				CDFB43E9EB8947D8B2ADB166 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */,
+				762484DA0BA345A7B68F81D5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */,
+				3F3231D481EA4582A24B9591 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */,
+				13E6FAC6D66C4F3C90A4CD0C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */,
+				0340FA5A9F624D2C8CD39C26 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		791C270FAC914A8D974CE396 /* Header Files */ = {
+		3E3664EABC94479F9A544897 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				17DD83D4EE70470693E2000C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */,
-				AEF65C65A11D4C0ABEA74EE6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */,
-				0D262E2018E848DEB608EE7F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */,
-				12BCE63B130443E6B406D1C0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */,
-				2669472D12B74A90B70E5893 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */,
-				1093A01CF5DB4D9E8431B0DD /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */,
-				8E54309F18324AF787AEFBA3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */,
-				F9545275DCD14FBC90D86BD2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */,
-				2ABF136F1FC144F6A71E7239 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */,
-				2AADAB763E724555BAE26DF5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */,
-				47EE8F48ADAF40E296D262D3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */,
-				359B8632CFE344DABD04812C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */,
+				F4AD8FAB9FE444099CDA6A7C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */,
+				FF6B4A32E6B04B42BC363258 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */,
+				457A9C94342A4C52969DC8AB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */,
+				1B8C19374934491F89047C9C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */,
+				92691F0460D840C8B9AD2575 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */,
+				82BE23EE11954A3AA322B346 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		7B0030BAC97349DA91F47B60 /* Source Files */ = {
+		3F3AA4C7FF6F42CF9CB82F74 /* CombFilter */ = {
 			isa = PBXGroup;
 			children = (
-				FD5A635B95194EDBA1753999 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */,
-				EACF3715E26F45ABA67120A2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */,
+				928C6C33DCFE4728BECA14F9 /* Source Files */,
+				3E3664EABC94479F9A544897 /* Header Files */,
+				7C48AB9E3BAF4296B97FC099 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt */,
 			);
-			name = "Source Files";
+			name = CombFilter;
 			sourceTree = "<group>";
 		};
-		8685708BB45F408C81A490FD /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				04A7D3B20D06429EAB551D4D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */,
-				0AD288FEDC0A4772B8C671FF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */,
-				883F6CA2686842ED9471653F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */,
-				76CAA84B1187449E8DF6FD57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */,
-				FA332CBAEC6245EA8E8C4AC9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */,
-				D86C6586ACCD410186D000A3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */,
-				D89FF0D9A4C94D84840257CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */,
-				E6626F8A991F40738ED74A30 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */,
-				B66041A601DD4E62BCFA711F /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */,
-				FF71B3145D0D4CCDAB295974 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		A71232B116B043D28D08EE3F /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				B4721FAA81564C998A82EADC /* CMake Rules */,
-				94B90CB1B8F44BA9A62D5A38 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		ADCDFBEAC1254E878D52D2B9 /* MUSI8903Exec */ = {
-			isa = PBXGroup;
-			children = (
-				613E63ED57B04F55AD945D55 /* Source Files */,
-				36BDA58AF88A4F04B2B1E192 /* Header Files */,
-				90D050C650294FFDB161E3F2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */,
-			);
-			name = MUSI8903Exec;
-			sourceTree = "<group>";
-		};
-		B0FFA0866D5545308A2B4B09 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				A344990709AB4F0E9E26043A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */,
-				96A9C16549BC456499AA08D2 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */,
-				D5028AEFCD8F48F19AFFB7E4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */,
-				48B49F899FF04435AC142BCC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */,
-				A8E9959AEFF64A0C8A8901A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		B4721FAA81564C998A82EADC /* CMake Rules */ = {
+		50DA8C1516144A5AAF814098 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		C284510435614BA6B8C31283 /* Products */ = {
+		53D20B8DE81C422787B2D4AA /* MUSI8903Exec */ = {
 			isa = PBXGroup;
 			children = (
-				7B24263D1A5E4C57AE30D825 /* MUSI8903Exec */,
-				95EAA499141D49E4B5D5687E /* AudioFileIO */,
-				1C2F90D8E4A54A74A03239BE /* sndlib */,
-				4020F79C2FF141D8A652BF6A /* CombFilter */,
+				D7E2083A62324F91B78C15C8 /* Source Files */,
+				F2FEF6337D4041AC82186665 /* Header Files */,
+				93AC22585D2E4BAA97A8597A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt */,
+			);
+			name = MUSI8903Exec;
+			sourceTree = "<group>";
+		};
+		553F541CEC204E3A85B613C0 /* sndlib */ = {
+			isa = PBXGroup;
+			children = (
+				58CDFB4ECAE34B02B8C78285 /* Source Files */,
+				F80F568DA28F441F99ADAA7C /* Header Files */,
+				2FDF48BDC6FB4F2CBB8B07EC /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/CMakeLists.txt */,
+			);
+			name = sndlib;
+			sourceTree = "<group>";
+		};
+		58CDFB4ECAE34B02B8C78285 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BFC9D7729C4F5EBC2F0A6A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */,
+				24E78F596657479DBE632144 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */,
+				06480AEAA7884118A3342051 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */,
+				DA05E0671E8A4EA3B8A26C3E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */,
+				24C6544FAE0F404B9540F8A9 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */,
+				C0650456BBD24035A2CDBFC8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */,
+				0E0BAD0CB08B4729A32F9341 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */,
+				EDA9C01C4EAF4776A19E2D78 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */,
+				8AEB35E21DB045A88A0C136A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */,
+				FC93346AC8754FFAAB59BC80 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7D9360AC30D94689946F6279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753C9D3EC3B54B2388AD2D98 /* MUSI8903Exec */,
+				C9A4EBA1FB75497B83F33608 /* AudioFileIO */,
+				ECCC481954E3468B8A06693B /* sndlib */,
+				BC6C7ABCA85C4DD4AD5A5637 /* CombFilter */,
+				6DB0A38F71724109BCCE9F11 /* Test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEDE5897292744DFAEA41868 /* AudioFileIO */ = {
+		7FB8AC3D780C4109BF6B8BD0 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				7B0030BAC97349DA91F47B60 /* Source Files */,
-				6C0F704E2B2F4AAA8374134F /* Header Files */,
-				BFBB5A275A324239B58AD8A8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt */,
 			);
-			name = AudioFileIO;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		D8212B3912894B58A3C02928 /* ZERO_CHECK */ = {
+		8F28CC00F3974C7BAE60703E /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				5E313CF8949A4693A54B8A48 /* CMake Rules */,
-				5E829730FC8A41C68976874C /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */,
+				AFDF0DC165F34C099DE168CD /* Source Files */,
+				2D9F8EA83CBA4D4EAB604040 /* Header Files */,
+				E580402239A24034A28C00C5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/CMakeLists.txt */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		92427119556D4A849E8C7578 = {
+			isa = PBXGroup;
+			children = (
+				AAD99E6702874FDF9323E448 /* Sources */,
+				1070615ED4E64E5DBBC4E5B9 /* Resources */,
+				7D9360AC30D94689946F6279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928C6C33DCFE4728BECA14F9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				56610A840A35416A905ABD5B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AAD99E6702874FDF9323E448 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E0CC2E9CD0C04FC8A28D915B /* ALL_BUILD */,
+				DDD8FC386A4E43BFBA60460F /* ZERO_CHECK */,
+				53D20B8DE81C422787B2D4AA /* MUSI8903Exec */,
+				22CFD4A9EB6A4A99ADC6C214 /* AudioFileIO */,
+				553F541CEC204E3A85B613C0 /* sndlib */,
+				3F3AA4C7FF6F42CF9CB82F74 /* CombFilter */,
+				8F28CC00F3974C7BAE60703E /* Test */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		AFDF0DC165F34C099DE168CD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1181F88B91A0415E99209CA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/Test_CombFilter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BA502B52968A477AA06390A2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B337BF1116FB458BA3382643 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D7E2083A62324F91B78C15C8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F08308DE874C159ECFD370 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DDD8FC386A4E43BFBA60460F /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				50DA8C1516144A5AAF814098 /* CMake Rules */,
+				34F73CD8B4C24075BAFB2BAB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		E0CC2E9CD0C04FC8A28D915B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7FB8AC3D780C4109BF6B8BD0 /* CMake Rules */,
+				B73F9E6B38284F50ACC938B8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E9B71C3A6BB045C6949D9541 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				34397ACB60E146A89D5F9F57 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */,
+				5E5268C775AC49E6A0D7B785 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F2FEF6337D4041AC82186665 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1158A473EE4B9CAE7CB060 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/AudioFileIf.h */,
+				6CF063F2ADE64F3C8B1185A4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/CombFilter.hpp */,
+				40AE65568AC9418B8F83006D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/RingBuffer.h */,
+				32E5D81167AA4A879E0AE595 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Test_CombFilter.hpp */,
+				06812233D1F14B729D6352CF /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Util.h */,
+				B81226BBDFB3480381391493 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc/Vector.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F80F568DA28F441F99ADAA7C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EA1D25AC5B4B07A7194A3A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/_sndlib.h */,
+				83E69F02DE5E4053B8D75973 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm-strings.h */,
+				B9C1AE413E8F4E179B84109D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.h */,
+				8DAB0BDF913144189C0D9023 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.h */,
+				A5E480A1EC0E44BEB1F48823 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/mus-config.h */,
+				36A0CEB75C424C9ABC8F61F0 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.h */,
+				27B9EED1CC9940108E2DDDEB /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib-strings.h */,
+				5C76F72C7EE64E11849C14B3 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib.h */,
+				39104BEBBEC94DC38766E53D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.h */,
+				4AD9B9B535FA42209F13BD06 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/unix-config.h */,
+				F47D4A5ECB6143EB930E6AA5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.h */,
+				D438F551CFA7435281B736E8 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.h */,
+			);
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,69 +533,85 @@
 /* Begin PBXNativeTarget section */
 		030F14F86EB949EB8EE1DC60 /* AudioFileIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 093E6D6B7F9444A886756223 /* Build configuration list for PBXNativeTarget "AudioFileIO" */;
+			buildConfigurationList = 561DB99128E54C9184E2E5D2 /* Build configuration list for PBXNativeTarget "AudioFileIO" */;
 			buildPhases = (
-				FF100DD5FF554E3EA028A245 /* Sources */,
+				9B04EE1A5A0847DB985636EB /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B724904EE804F8AB9AB28D5 /* PBXTargetDependency */,
-				3119671B9CCB40D3A355D118 /* PBXTargetDependency */,
+				EECD5C079CC847FA8D46EA1A /* PBXTargetDependency */,
+				F5C14CE20398456DB6577991 /* PBXTargetDependency */,
 			);
 			name = AudioFileIO;
 			productName = AudioFileIO;
-			productReference = 95EAA499141D49E4B5D5687E /* AudioFileIO */;
+			productReference = C9A4EBA1FB75497B83F33608 /* AudioFileIO */;
 			productType = "com.apple.product-type.library.static";
 		};
 		11568F7374F347539EDBEF9B /* sndlib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60F29CEDF89F42B38E4654F1 /* Build configuration list for PBXNativeTarget "sndlib" */;
+			buildConfigurationList = E93634A989154B2F96291BFC /* Build configuration list for PBXNativeTarget "sndlib" */;
 			buildPhases = (
-				536708DED42941E5AAB1EACC /* Sources */,
+				DFD83423129C40F9A4ECF56D /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4EDC6DD8159A464BBDD0F22B /* PBXTargetDependency */,
+				A844EA692DA14FDE91122DF8 /* PBXTargetDependency */,
 			);
 			name = sndlib;
 			productName = sndlib;
-			productReference = 1C2F90D8E4A54A74A03239BE /* sndlib */;
+			productReference = ECCC481954E3468B8A06693B /* sndlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49B4728F1FD64692B53FD495 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A189604FE56464E91045A1C /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				5352EEFD91AB4FBCA034980A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B44227BE944C4FA85CF1E4 /* PBXTargetDependency */,
+			);
+			name = Test;
+			productName = Test;
+			productReference = 6DB0A38F71724109BCCE9F11 /* Test */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5C4D6F09C86345D38571BA8B /* CombFilter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BBFC366306840528030BC3A /* Build configuration list for PBXNativeTarget "CombFilter" */;
+			buildConfigurationList = 9A01B290E9C04D5AADF0A920 /* Build configuration list for PBXNativeTarget "CombFilter" */;
 			buildPhases = (
-				AA76A13EA87A4802BAE4ACE9 /* Sources */,
+				FAEC106AEAF94B16A34C66A3 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00972F231A5D4761AE707163 /* PBXTargetDependency */,
+				C739C8A643744AD68C13C6BC /* PBXTargetDependency */,
 			);
 			name = CombFilter;
 			productName = CombFilter;
-			productReference = 4020F79C2FF141D8A652BF6A /* CombFilter */;
+			productReference = BC6C7ABCA85C4DD4AD5A5637 /* CombFilter */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FE75101337E2411084729585 /* MUSI8903Exec */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9135C863C8344EAC93D9D355 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */;
+			buildConfigurationList = 4A9D1362D07A4F47B9B9B7C9 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */;
 			buildPhases = (
-				0A3ABC712A99498B9EED3344 /* Sources */,
+				D75E276C0EE84549BF03B9F6 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E85EAB240AF5443184783F33 /* PBXTargetDependency */,
-				01A674C2202C48E786ABE7DD /* PBXTargetDependency */,
-				5AEE32405D7B49889CDB2220 /* PBXTargetDependency */,
+				A9282933CB7E4F8BB0292771 /* PBXTargetDependency */,
+				0DA30072D95C46D1A35CE3EC /* PBXTargetDependency */,
+				4B706CA22E864C2AB266D6E8 /* PBXTargetDependency */,
 			);
 			name = MUSI8903Exec;
 			productName = MUSI8903Exec;
-			productReference = 7B24263D1A5E4C57AE30D825 /* MUSI8903Exec */;
+			productReference = 753C9D3EC3B54B2388AD2D98 /* MUSI8903Exec */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -535,18 +622,18 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 			};
-			buildConfigurationList = A98CB56435AD4C59931BDB7D /* Build configuration list for PBXProject "MUSI8903" */;
+			buildConfigurationList = 81F3F81DB3F446FB96EF9663 /* Build configuration list for PBXProject "MUSI8903" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				1499C581D7A34C58B941EFB4 /* Debug */,
-				CABC5B9A0E394FC386344874 /* Release */,
-				DCF0DE8FF2FE4AA0BE06A5D8 /* MinSizeRel */,
-				8E25F1A3FE25412AB6C3FC4E /* RelWithDebInfo */,
+				CAB3052E8FA64DF9967EB54F /* Debug */,
+				C9FEAEA6B92D4F5BA549B734 /* Release */,
+				95440101DA2947CFB2A349FB /* MinSizeRel */,
+				51EB8E9676254F67B811DB57 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 19AA105A79AE437199872C97;
+			mainGroup = 92427119556D4A849E8C7578;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -556,12 +643,13 @@
 				030F14F86EB949EB8EE1DC60 /* AudioFileIO */,
 				11568F7374F347539EDBEF9B /* sndlib */,
 				5C4D6F09C86345D38571BA8B /* CombFilter */,
+				49B4728F1FD64692B53FD495 /* Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		134FAB8255404B9AB87F85A9 = {
+		8363B2EE52254E7691C782A2 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -576,22 +664,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		2F874BF633674653A4D52EBB = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		3ED48E8949F342358143C664 /* CMake Rules */ = {
+		B1F283F60DB2449681514CD5 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -602,7 +675,7 @@ exit 0";
 			shellScript = "make -C /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld -f /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		83C4D5BE7F554813BAC0B34D /* CMake Rules */ = {
+		B9501C5E2F4F4D5AAAF6F570 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,118 +686,295 @@ exit 0";
 			shellScript = "make -C /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld -f /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
+		EAB24ADD9E1C4F099F8419A7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A3ABC712A99498B9EED3344 /* Sources */ = {
+		5352EEFD91AB4FBCA034980A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844111BABFF14D37856C0688 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */,
+				B1884162C6734656A2D59699 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/Test_CombFilter.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		536708DED42941E5AAB1EACC /* Sources */ = {
+		9B04EE1A5A0847DB985636EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C3CEC6488C84956B00CB4FE /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */,
-				E14147CDB3214F87A7452467 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */,
-				EA4E72F26E534484BA178ADA /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */,
-				F50313B5E28D4C1BA7534B7A /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */,
-				EAD7637344AF4CEA89377CA7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */,
-				986008CBE4C04D62898C3D78 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */,
-				9050F246A8E94AA697FF3936 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */,
-				B2A74878A6184A83ADC987E5 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */,
-				8747B752BB0C4FC1A3EB661B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */,
-				AA79C1FAA143432C9EFD4E6B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */,
+				3A8FA97189E344FBB3DB8CD6 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */,
+				4F26536E09BD4B1EA626BC2E /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA76A13EA87A4802BAE4ACE9 /* Sources */ = {
+		D75E276C0EE84549BF03B9F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0FF40D161641AE9F16F060 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */,
+				261E24D957BB4BEDAC1804E1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/MUSI8903Exec.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF100DD5FF554E3EA028A245 /* Sources */ = {
+		DFD83423129C40F9A4ECF56D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E98DF9A762400AB7A42EB4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFile.cpp */,
-				305E5C9C0FE44C42914D531D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/AudioFileIf.cpp */,
+				B53524B370524849A36E842D /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/audio.c */,
+				AEDA7BCB076741B78985D459 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm.c */,
+				921F4A1AFE984E64917C3021 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/clm2xen.c */,
+				AE801E8FFC744ECD852BC17B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/headers.c */,
+				F27706A69A084ABAB7A32D66 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/io.c */,
+				1FABD61AC735465AB23841AE /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/s7.c */,
+				57F784B7924B4335B0F4FCE7 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sndlib2xen.c */,
+				96A8E5DBEE7A458EA82AC94B /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/sound.c */,
+				2A2A0F36CAEA42B0BFD4A287 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/vct.c */,
+				8694E568056E41598FBB8DD1 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib/xen.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC106AEAF94B16A34C66A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B50DDA61944E6FAF0E01C4 /* /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CombFilter.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00972F231A5D4761AE707163 /* PBXTargetDependency */ = {
+		0DA30072D95C46D1A35CE3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11568F7374F347539EDBEF9B /* sndlib */;
+			targetProxy = 0B5CE12F2B6847D791A2981C /* PBXContainerItemProxy */;
+		};
+		413D9F942C974A2DAE471CB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
-			targetProxy = AF8612B71EDA4D68A6A2F764 /* PBXContainerItemProxy */;
+			targetProxy = 82980B759E4D4EE98332423D /* PBXContainerItemProxy */;
 		};
-		01A674C2202C48E786ABE7DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 030F14F86EB949EB8EE1DC60 /* AudioFileIO */;
-			targetProxy = D264B0D22098427DBB28A1DC /* PBXContainerItemProxy */;
-		};
-		3119671B9CCB40D3A355D118 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
-			targetProxy = 6E792E063A9D4F0DABDA8B9B /* PBXContainerItemProxy */;
-		};
-		3528C3A7439C4123A74CC0E5 /* PBXTargetDependency */ = {
+		4AAE27D55BCD44B2A51F7173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE75101337E2411084729585 /* MUSI8903Exec */;
-			targetProxy = 75CECE322E9E4419942485D2 /* PBXContainerItemProxy */;
+			targetProxy = 2B18EBF6914D4BECB301EF6F /* PBXContainerItemProxy */;
 		};
-		4EDC6DD8159A464BBDD0F22B /* PBXTargetDependency */ = {
+		4B706CA22E864C2AB266D6E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
-			targetProxy = A555B6A83D424C96822FAE1E /* PBXContainerItemProxy */;
+			targetProxy = 98C4ED2C045F4AD6AF9C8A82 /* PBXContainerItemProxy */;
 		};
-		5AEE32405D7B49889CDB2220 /* PBXTargetDependency */ = {
+		68B44227BE944C4FA85CF1E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
-			targetProxy = 261BF160D85247B393CB2ED4 /* PBXContainerItemProxy */;
+			targetProxy = 7646DB26E99F46F29FEC18F6 /* PBXContainerItemProxy */;
 		};
-		601320D46937411CAF4E029E /* PBXTargetDependency */ = {
+		9B644E3C17B94D1F8AE26794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11568F7374F347539EDBEF9B /* sndlib */;
+			targetProxy = D8D3B2949EEA475C98E9A9EB /* PBXContainerItemProxy */;
+		};
+		A844EA692DA14FDE91122DF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
-			targetProxy = D2C9555855304A75A67463C3 /* PBXContainerItemProxy */;
+			targetProxy = 183C458067344988B40B6B37 /* PBXContainerItemProxy */;
 		};
-		8B724904EE804F8AB9AB28D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11568F7374F347539EDBEF9B /* sndlib */;
-			targetProxy = AB99B4A6D215446EB528762E /* PBXContainerItemProxy */;
-		};
-		B6BBEC30C64049F4ABF8FD9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C4D6F09C86345D38571BA8B /* CombFilter */;
-			targetProxy = C527F2B394764462A4735DFD /* PBXContainerItemProxy */;
-		};
-		E46BC488A3F149FFB81E4B46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11568F7374F347539EDBEF9B /* sndlib */;
-			targetProxy = 981FA003DC074100A6486282 /* PBXContainerItemProxy */;
-		};
-		E85EAB240AF5443184783F33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11568F7374F347539EDBEF9B /* sndlib */;
-			targetProxy = 2A150F3FD09E4BE58A8EF1CD /* PBXContainerItemProxy */;
-		};
-		EAEF11CDED7C4AD687DA5C25 /* PBXTargetDependency */ = {
+		A9282933CB7E4F8BB0292771 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 030F14F86EB949EB8EE1DC60 /* AudioFileIO */;
-			targetProxy = AAAD05FC75A547D59F7C1F72 /* PBXContainerItemProxy */;
+			targetProxy = 25B3D64C156943F79DF30D9B /* PBXContainerItemProxy */;
+		};
+		C29CE4D04C064763955DEE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4D6F09C86345D38571BA8B /* CombFilter */;
+			targetProxy = 421DD3DD306F43158C6377F0 /* PBXContainerItemProxy */;
+		};
+		C739C8A643744AD68C13C6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
+			targetProxy = FDF232271AD24DF09A3E80D2 /* PBXContainerItemProxy */;
+		};
+		EAB3B131AC3E4DA98A0F9736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030F14F86EB949EB8EE1DC60 /* AudioFileIO */;
+			targetProxy = 9BE90E183EED4E3896D40C2A /* PBXContainerItemProxy */;
+		};
+		EECD5C079CC847FA8D46EA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11568F7374F347539EDBEF9B /* sndlib */;
+			targetProxy = 34D024259FEF4E13B16F3D13 /* PBXContainerItemProxy */;
+		};
+		F469AA68B0444ECFA3878E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B4728F1FD64692B53FD495 /* Test */;
+			targetProxy = A0DCC443B58F46FA934F4B6F /* PBXContainerItemProxy */;
+		};
+		F5C14CE20398456DB6577991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B06839209564040A9B86F23 /* ZERO_CHECK */;
+			targetProxy = 4ED2DB570EF049BB96FA55E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0538B3C880654BB98E4295DE /* Release */ = {
+		06111041427845F0A18BA61F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		1A627BD03B7D46699F093CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1FD5E4630BAF4E0DA40A9147 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		22E62BE8205B452FB7CD37D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		238A3346436344C59DF43E4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		294F7E3EA3754C2F84595F74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		31869194C483417EB5D6A281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -744,7 +994,59 @@ exit 0";
 			};
 			name = Release;
 		};
-		08539863106D4C7284A8F093 /* Debug */ = {
+		52968E4C9BC248F9993A30F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/Test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		6D96A8E522E542F5AE5A2A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		74CB7A513D3A4837B1289919 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -762,18 +1064,61 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		308A1698C56948FC95C876E6 /* RelWithDebInfo */ = {
+		7561EF0FCD294D22A3924AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
-		340AA62820394890B224A4D4 /* RelWithDebInfo */ = {
+		7846B1C1F77F438A95AA9380 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		7A31E2EADEB041E198CF8541 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -799,94 +1144,27 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		38A447271953432BB2EA4CB7 /* MinSizeRel */ = {
+		83D21F0F1039409096B940D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = AudioFileIO;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		3C4EECB5AA804DBFBCE09EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
-			};
-			name = Debug;
-		};
-		444E53B46FCC413DB2479AE9 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/relwithdebinfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -w  ";
-				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sndlib;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		67629EE1C57C457E8391D4CF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/relwithdebinfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = AudioFileIO;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		6CBA749BE0694D1C9FDA107B /* Release */ = {
+		89131B2140794A58B9CBB81C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -904,53 +1182,33 @@ exit 0";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = CombFilter;
+				PRODUCT_NAME = Test;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/Test";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
 			name = Release;
 		};
-		708F5B7D70A54FF8AC5C8933 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		7427278513B648D0855112B2 /* MinSizeRel */ = {
+		8BC6677881E148FAA00D0FA8 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		76DB23AC615A4B88B90E7063 /* Release */ = {
+		8D8BF687301D47359D5CF8B7 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/release";
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
@@ -965,153 +1223,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
-		};
-		7D6D36E623CD43FDB43F7E1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = CombFilter;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		88D968B47BF2452898767E37 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = CombFilter;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
 			name = MinSizeRel;
 		};
-		8DF9DACDCA904485ADCBC0AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		9A6761C3BF7841E2AF630BEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "   -w  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sndlib;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		9D2D66E5640E4122B47BED85 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -w  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sndlib;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		9D690599DB7D40098164040B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		A2875D5D5F0B4BF0AA7447EB /* Release */ = {
+		8EFA5739BBF4462DA3AFFCDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1137,7 +1251,42 @@ exit 0";
 			};
 			name = Release;
 		};
-		CDA84D340C45485AB948C236 /* MinSizeRel */ = {
+		98B5F4E919DD4087BAEDD4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9BA44A98ED3D47859C8E0119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
+			};
+			name = Release;
+		};
+		A81C83002DA241178C04CA88 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1149,24 +1298,148 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		D2025BB6B214456C82F5FAA8 /* Release */ = {
+		B0231F2721D4459ABE4F46DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B498504228054235B5C0ED39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/Test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B5F42AD8AFDF4F0A92B469F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B643F6A01F614D868D5C134D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B92347FFF4554EFBA54ACC26 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
 				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		D5AAC5E1CA2542E584113F8C /* RelWithDebInfo */ = {
+		BCE0481356544BFCB5A7ADB4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C37E40D5C34946BFA8955E8A /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1184,87 +1457,15 @@ exit 0";
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = CombFilter;
+				PRODUCT_NAME = Test;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/Test";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
 			name = RelWithDebInfo;
 		};
-		D65B0DE084D1463080FAB6F3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = RelWithDebInfo;
-		};
-		D6D3557000624959BDF0AABA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bin/MinSizeRel";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel/libAudioFileIO.a /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel/libsndlib.a";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = MUSI8903Exec;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/MUSI8903Exec";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = MinSizeRel;
-		};
-		F3718450E4A14DA8AC660DEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = AudioFileIO;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
-			};
-			name = Debug;
-		};
-		FA1B6DCDE1534C06A01B8883 /* Debug */ = {
+		E1CF6B94F287458387278ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1290,7 +1491,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		FA238303DE1149B184801032 /* Release */ = {
+		E1D790665A1943DEB30D3342 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1308,110 +1509,130 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
+			name = Debug;
 		};
-		FC632766689346678C518B9D /* Release */ = {
+		EB8B554EA1EF476194414B39 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
+				CONFIGURATION_BUILD_DIR = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/3rdparty/sndlib", );
+				HEADER_SEARCH_PATHS = ("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/inc", "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/inc", );
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -w  ";
-				OTHER_LIBTOOLFLAGS = " ";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel/libAudioFileIO.a /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/lib/MinSizeRel/libsndlib.a";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sndlib;
+				PRODUCT_NAME = MUSI8903Exec;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/sndlib";
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/MUSI8903Exec";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
 			};
-			name = Release;
+			name = MinSizeRel;
+		};
+		F7EDEFF640C34682A5264A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/build";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		093E6D6B7F9444A886756223 /* Build configuration list for PBXNativeTarget "AudioFileIO" */ = {
+		4A189604FE56464E91045A1C /* Build configuration list for PBXNativeTarget "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3718450E4A14DA8AC660DEA /* Debug */,
-				76DB23AC615A4B88B90E7063 /* Release */,
-				38A447271953432BB2EA4CB7 /* MinSizeRel */,
-				67629EE1C57C457E8391D4CF /* RelWithDebInfo */,
+				B498504228054235B5C0ED39 /* Debug */,
+				89131B2140794A58B9CBB81C /* Release */,
+				52968E4C9BC248F9993A30F1 /* MinSizeRel */,
+				C37E40D5C34946BFA8955E8A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0BBFC366306840528030BC3A /* Build configuration list for PBXNativeTarget "CombFilter" */ = {
+		4A9D1362D07A4F47B9B9B7C9 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D6D36E623CD43FDB43F7E1C /* Debug */,
-				6CBA749BE0694D1C9FDA107B /* Release */,
-				88D968B47BF2452898767E37 /* MinSizeRel */,
-				D5AAC5E1CA2542E584113F8C /* RelWithDebInfo */,
+				E1CF6B94F287458387278ED0 /* Debug */,
+				8EFA5739BBF4462DA3AFFCDD /* Release */,
+				EB8B554EA1EF476194414B39 /* MinSizeRel */,
+				7A31E2EADEB041E198CF8541 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		23C40E7608B34F16A1DE7DE6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		561DB99128E54C9184E2E5D2 /* Build configuration list for PBXNativeTarget "AudioFileIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08539863106D4C7284A8F093 /* Debug */,
-				FA238303DE1149B184801032 /* Release */,
-				CDA84D340C45485AB948C236 /* MinSizeRel */,
-				D65B0DE084D1463080FAB6F3 /* RelWithDebInfo */,
+				7561EF0FCD294D22A3924AF8 /* Debug */,
+				6D96A8E522E542F5AE5A2A32 /* Release */,
+				8D8BF687301D47359D5CF8B7 /* MinSizeRel */,
+				294F7E3EA3754C2F84595F74 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		48596D2AC73847E89362C0FF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		81F3F81DB3F446FB96EF9663 /* Build configuration list for PBXProject "MUSI8903" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DF9DACDCA904485ADCBC0AC /* Debug */,
-				0538B3C880654BB98E4295DE /* Release */,
-				9D690599DB7D40098164040B /* MinSizeRel */,
-				708F5B7D70A54FF8AC5C8933 /* RelWithDebInfo */,
+				F7EDEFF640C34682A5264A9B /* Debug */,
+				9BA44A98ED3D47859C8E0119 /* Release */,
+				B92347FFF4554EFBA54ACC26 /* MinSizeRel */,
+				8BC6677881E148FAA00D0FA8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		60F29CEDF89F42B38E4654F1 /* Build configuration list for PBXNativeTarget "sndlib" */ = {
+		9A01B290E9C04D5AADF0A920 /* Build configuration list for PBXNativeTarget "CombFilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6761C3BF7841E2AF630BEE /* Debug */,
-				FC632766689346678C518B9D /* Release */,
-				9D2D66E5640E4122B47BED85 /* MinSizeRel */,
-				444E53B46FCC413DB2479AE9 /* RelWithDebInfo */,
+				B5F42AD8AFDF4F0A92B469F7 /* Debug */,
+				1A627BD03B7D46699F093CC7 /* Release */,
+				BCE0481356544BFCB5A7ADB4 /* MinSizeRel */,
+				238A3346436344C59DF43E4B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9135C863C8344EAC93D9D355 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */ = {
+		9B1EC8EDBB87470CA678A1CD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA1B6DCDE1534C06A01B8883 /* Debug */,
-				A2875D5D5F0B4BF0AA7447EB /* Release */,
-				D6D3557000624959BDF0AABA /* MinSizeRel */,
-				340AA62820394890B224A4D4 /* RelWithDebInfo */,
+				B0231F2721D4459ABE4F46DE /* Debug */,
+				31869194C483417EB5D6A281 /* Release */,
+				1FD5E4630BAF4E0DA40A9147 /* MinSizeRel */,
+				A81C83002DA241178C04CA88 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A98CB56435AD4C59931BDB7D /* Build configuration list for PBXProject "MUSI8903" */ = {
+		AD7B33B0546A44D1ABE382A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C4EECB5AA804DBFBCE09EA7 /* Debug */,
-				D2025BB6B214456C82F5FAA8 /* Release */,
-				7427278513B648D0855112B2 /* MinSizeRel */,
-				308A1698C56948FC95C876E6 /* RelWithDebInfo */,
+				E1D790665A1943DEB30D3342 /* Debug */,
+				83D21F0F1039409096B940D0 /* Release */,
+				74CB7A513D3A4837B1289919 /* MinSizeRel */,
+				06111041427845F0A18BA61F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E93634A989154B2F96291BFC /* Build configuration list for PBXNativeTarget "sndlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B5F4E919DD4087BAEDD4D8 /* Debug */,
+				22E62BE8205B452FB7CD37D4 /* Release */,
+				7846B1C1F77F438A95AA9380 /* MinSizeRel */,
+				B643F6A01F614D868D5C134D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

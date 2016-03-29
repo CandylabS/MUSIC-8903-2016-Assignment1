@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>ZERO_CHECK.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>41664F4B28FA4EF19C9E1FC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49B4728F1FD64692B53FD495</key>
 		<dict>
 			<key>primary</key>
 			<true/>

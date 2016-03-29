@@ -32,6 +32,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/MUSI8903Exec/cmake_install.cmake")
   include("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/AudioFileIO/cmake_install.cmake")
   include("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/CombFilter/cmake_install.cmake")
+  include("/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld/Test/cmake_install.cmake")
 
 endif()
 

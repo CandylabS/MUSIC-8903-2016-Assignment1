@@ -36,5 +36,6 @@
 /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/AudioFileIO/CMakeLists.txt\
 /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/CombFilter/CMakeLists.txt\
 /Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Config.h.in\
-/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/MUSI8903Exec/CMakeLists.txt\
+/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/src/Test/CMakeLists.txt
 	/Applications/CMake.app/Contents/bin/cmake -H/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1 -B/Users/ssmilkshake/Documents/MUSIC-8903-2016-Assignment1/bld

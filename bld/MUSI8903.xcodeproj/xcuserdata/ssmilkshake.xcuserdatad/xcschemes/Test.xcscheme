@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41664F4B28FA4EF19C9E1FC9"
-               BuildableName = "ALL_BUILD"
-               BlueprintName = "ALL_BUILD"
+               BlueprintIdentifier = "49B4728F1FD64692B53FD495"
+               BuildableName = "libTest.a"
+               BlueprintName = "Test"
                ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,18 +45,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41664F4B28FA4EF19C9E1FC9"
-            BuildableName = "ALL_BUILD"
-            BlueprintName = "ALL_BUILD"
+            BlueprintIdentifier = "49B4728F1FD64692B53FD495"
+            BuildableName = "libTest.a"
+            BlueprintName = "Test"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = ""
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -69,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41664F4B28FA4EF19C9E1FC9"
-            BuildableName = "ALL_BUILD"
-            BlueprintName = "ALL_BUILD"
+            BlueprintIdentifier = "49B4728F1FD64692B53FD495"
+            BuildableName = "libTest.a"
+            BlueprintName = "Test"
             ReferencedContainer = "container:bld/MUSI8903.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

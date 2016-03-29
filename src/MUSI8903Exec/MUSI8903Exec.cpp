@@ -5,6 +5,7 @@
 
 #include "AudioFileIf.h"
 #include "CombFilter.hpp"
+#include "Test_CombFilter.hpp"
 
 using std::cout;
 using std::endl;
